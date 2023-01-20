@@ -1,10 +1,13 @@
 {
+	"homepage": "https://codingwithenjoy.github.io/Code-To-Image-With-A-Lot-Of-Options-TypeScript",
 	"name": "karbonized",
 	"private": true,
 	"version": "0.0.0",
 	"type": "module",
 	"scripts": {
 		"dev": "vite",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build",
 		"build": "tsc && vite build",
 		"preview": "vite preview"
 	},
@@ -59,6 +62,7 @@
 		"eslint-plugin-n": "^15.0.0",
 		"eslint-plugin-promise": "^6.0.0",
 		"eslint-plugin-react": "latest",
+		"gh-pages": "^4.0.0",
 		"postcss": "^8.4.19",
 		"prettier": "^2.7.1",
 		"react-router-dom": "^6.4.3",
