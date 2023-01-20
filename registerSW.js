@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/Code-To-Image-With-A-Lot-Of-Options-TypeScriptsw.js', { scope: '/Code-To-Image-With-A-Lot-Of-Options-TypeScript' })})}
